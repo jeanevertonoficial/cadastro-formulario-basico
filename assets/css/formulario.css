@@ -1,0 +1,75 @@
+html {
+  height: 100vh;
+
+  overflow: hidden;
+}
+
+body {
+  perspective: 2px;
+
+  height: 100%;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.container {
+  padding-right: 2rem;
+  padding-left: 2rem;
+}
+
+main {
+  width: 50%;
+  margin: 0 auto;
+
+  height: 80vh; /* pega o espeço total da tela em altura */
+
+  overflow: hidden;
+
+
+}
+
+form {
+  margin: 40px 0;
+}
+form label,
+form legend {
+  /*posição das labels */
+  display: block;
+  font-size: 20px;
+  margin: 0 0 10px;
+}
+
+.input-padrao {
+  display: block;
+  margin: 0 0 20px; /* margem para baixo do campo para preencher*/
+  padding: 10px 25px; /* dentro do campo de preemchimento de dados */
+  width: 50%;
+}
+
+/* configurando o botao de enviar */
+.enviar {
+  width: 40%;
+  padding: 15px 0;
+  background-color: orange;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  transition: all 1s;
+  cursor: pointer;
+}
+
+.enviar:hover {
+  background-color: darkorange;
+  transform: scale(
+    1.2
+  ); /* ao passar o mouse o item roda e aumenta a scala do tamanho*/
+}
+
+.caixa p {
+    font-size: 1.75rem;
+    margin-top: 2rem;
+}
