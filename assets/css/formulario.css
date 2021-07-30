@@ -3,6 +3,14 @@ html {
 
   overflow: hidden;
 }
+header .logo {
+  font-family: sans-serif;
+}
+
+a .logo-acesso {
+  color: inherit;
+  text-transform: inherit;
+}
 
 body {
   perspective: 2px;
@@ -71,5 +79,6 @@ form legend {
 
 .caixa p {
     font-size: 1.75rem;
-    margin-top: 2rem;
+    margin-top: 4rem;
 }
+
